@@ -1,0 +1,35 @@
+== ShareMe
+	Share your webpage on social sites.
+
+== Installation
+  Step 1 :-
+  	Instal share-me gem
+		gem install share-me
+  	Add the share-me gem in config/environment.rb
+		config.gem "share-me"
+
+== Example
+
+	<% url = "http://www.google.com/" %>
+	<h1> Share Button </h2>
+	<table><tr>
+	    <td><%= ShareMe::Twitter.button( url ) %></td>
+	    <td><%= ShareMe::Facebook.button( url ) %></td>
+	    <td><%= ShareMe::Google.button( url ) %></td>
+	    <td><%= ShareMe::Stumble.button( url ) %></td>
+	    <td><%= ShareMe::Digg.button( url ) %></td>
+	</tr></table>
+
+	<h1> Small Share Button </h2>
+	<table><tr>
+	    <td><%= ShareMe::Twitter.small_button( url ) %></td>
+	    <td><%= ShareMe::Facebook.small_button( url ) %></td>
+	    <td><%= ShareMe::Google.small_button( url ) %></td>
+	    <td><%= ShareMe::Stumble.small_button( url ) %></td>
+	    <td><%= ShareMe::Digg.small_button( url ) %></td>
+	</tr></table>
+
+
+	
+	
+
