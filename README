@@ -3,10 +3,10 @@
 
 == Installation
   Step 1 :-
-  	Instal share-me gem
-		gem install share-me
+  	Install share-me gem
+		* gem install share-me
   	Add the share-me gem in config/environment.rb
-		config.gem "share-me"
+		* config.gem "share-me"
 
 == Example
 
