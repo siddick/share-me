@@ -10,7 +10,7 @@
 
 == Example
 
-	<% url = "http://www.google.com/" %>
+	<% url = 'http://www.google.com/' %>
 	<h1> Share Button </h2>
 	<table><tr>
 	    <td><%= ShareMe::Twitter.button( url ) %></td>
